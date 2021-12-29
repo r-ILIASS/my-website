@@ -1,5 +1,27 @@
 import React from "react";
 
-const Hero = () => <h1>Hero section</h1>;
+import { Wrapper, Content, Button } from "./Hero.styles";
+
+import background from "../../assets/hero__background.jpg";
+import pdf from "../../assets/pdfLogo.svg";
+
+const Hero = () => (
+  <Wrapper background={background}>
+    <Content>
+      <p>
+        I am a Computer Engineering graduate and
+        <br />a Front-end Web Developer looking for
+        <br />
+        an internship or a junior position
+      </p>
+      <a href="https://github.com/" target="_blank">
+        <Button>Checkout my resume</Button>
+      </a>
+      <a href="https://github.com/" target="_blank">
+        <img src={pdf} alt="resume" />
+      </a>
+    </Content>
+  </Wrapper>
+);
 
 export default Hero;
