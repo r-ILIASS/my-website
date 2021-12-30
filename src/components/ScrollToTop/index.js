@@ -4,7 +4,6 @@ import { Button } from "./ScrollToTop.styles";
 
 const ScrollToTop = () => {
   const [isVisible, setIsVisible] = useState(true);
-  console.log(isVisible);
 
   const toggleVisible = () => {
     if (window.scrollY > 300) {

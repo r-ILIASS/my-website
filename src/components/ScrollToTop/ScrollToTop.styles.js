@@ -9,6 +9,10 @@ export const Button = styled.button`
   z-index: 100;
   transition: right 0.7s;
 
+  @media screen and (max-width: 414px) {
+    max-width: 50px;
+  }
+
   /* opacity: ${({ isVisible }) => (isVisible ? "100" : "0")}; */
   svg {
     color: var(--red);
