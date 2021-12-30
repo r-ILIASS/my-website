@@ -1,5 +1,11 @@
 import React from "react";
 
-const Coursework = () => <h1>Coursework & projects</h1>;
+import Card from "../../components/Card";
+
+const Coursework = () => (
+  <div>
+    <Card />
+  </div>
+);
 
 export default Coursework;
