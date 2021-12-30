@@ -10,11 +10,15 @@ export const ImageWrapper = styled.div`
   height: 220px;
   background: url(${({ image }) => image});
   background-size: 100%, cover;
+  @media screen and (max-width: 414px) {
+    background-size: 120%, cover;
+  }
 `;
 
 export const TextWrapper = styled.div`
   padding: 20px;
   position: relative;
+  background: #fff;
 
   h5 {
     font-size: 34px;
