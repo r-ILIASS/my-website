@@ -21,7 +21,7 @@ const NavBar = () => {
           <MenuLink href="#projects" onClick={() => setIsOpen(false)}>
             Projects
           </MenuLink>
-          <MenuLink href="#" onClick={() => setIsOpen(false)}>
+          <MenuLink href="#contact" onClick={() => setIsOpen(false)}>
             Contact
           </MenuLink>
         </Menu>
