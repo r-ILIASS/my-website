@@ -14,9 +14,15 @@ const Contact = () => (
         <p>iliass.root@gmail.com</p>
         <p>+212 6 89444004</p>
         <div className="social">
-          <img src={telegramIcon} alt="telegram" />
-          <img src={linkedinIcon} alt="linkedin" />
-          <img src={githubIcon} alt="github" />
+          <a href="https://github.com/" target="_blank">
+            <img src={telegramIcon} alt="telegram" />
+          </a>
+          <a href="https://github.com/" target="_blank">
+            <img src={linkedinIcon} alt="linkedin" />
+          </a>
+          <a href="https://github.com/" target="_blank">
+            <img src={githubIcon} alt="github" />
+          </a>
         </div>
       </Content>
     </Wrapper>
