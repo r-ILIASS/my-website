@@ -11,6 +11,24 @@ export const GlobalStyle = createGlobalStyle`
     --white: #fff;
     
     --maxWidth: 1280px;
+
+    ::-webkit-scrollbar {
+    width: 6px;
+    }
+
+    /* Track */ ::-webkit-scrollbar-track {
+        background: var(--darkGrey);
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: var(--red); 
+    }
+    ::-webkit-scrollbar-thumb:window-inactive {
+        background: rgba(255,0,0,0.4); 
+    }
 }
 
 *,*::before,*::after{
