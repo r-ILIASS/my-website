@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { Button } from "./ScrollToTop.styles";
 
 const ScrollToTop = () => {
-  const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible] = useState(false);
 
   const toggleVisible = () => {
     if (window.scrollY > 300) {
