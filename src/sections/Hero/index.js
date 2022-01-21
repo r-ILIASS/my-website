@@ -10,7 +10,7 @@ const Hero = () => (
     <Content>
       <p>
         I am a Computer Engineering graduate and
-        <br />a Front-end Web Developer looking for
+        <br />a Front-End Web Developer looking for
         <br />
         an internship or a junior position
       </p>

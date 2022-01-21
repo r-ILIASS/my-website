@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const CardWrapper = styled.div`
   max-width: 440px;
-  min-height: 440px;
+  background: #fff;
   box-shadow: 0 0.25rem 1rem rgb(0 0 0 / 0.1);
 `;
 
@@ -17,8 +17,7 @@ export const ImageWrapper = styled.div`
 
 export const TextWrapper = styled.div`
   padding: 20px;
-  position: relative;
-  background: #fff;
+  min-height: 403px;
 
   h5 {
     font-size: 34px;
@@ -27,18 +26,21 @@ export const TextWrapper = styled.div`
   }
 
   p {
-    font-size: 23px;
+    font-size: 22px;
     font-weight: 400;
   }
 `;
 
 export const Links = styled.div`
-  position: absolute;
-  top: 17px;
-  right: 20px;
+  width: 91%;
   display: flex;
-  gap: 18px;
-  img {
-    width: 45px;
+  flex-direction: column;
+  margin-top: 15px;
+  gap: 10px;
+
+  a {
+    text-decoration: underline;
+    color: #000;
+    font-size: 1.2rem;
   }
 `;

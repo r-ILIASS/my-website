@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   background: var(--milkBlue);
+  padding: 0 20px;
 `;
 
 export const Content = styled.div`

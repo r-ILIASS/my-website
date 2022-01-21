@@ -4,7 +4,6 @@ export const Wrapper = styled.div`
   height: calc(100vh - 56px);
   background: url(${({ background }) => background});
   background-size: 1920px, cover;
-  /* background-position: center; */
 
   @media screen and (max-width: 768px) {
     height: 768px;
@@ -28,20 +27,20 @@ export const Content = styled.div`
   align-items: center;
   justify-content: center;
 
-  padding-top: 150px;
+  padding-top: 180px;
 
   @media screen and (max-width: 768px) {
-    padding-top: 120px;
+    padding-top: 70px;
   }
 
   p {
     font-size: 36px;
     font-weight: 600;
-    margin-bottom: 80px;
+    margin-bottom: 65px;
 
     @media screen and (max-width: 768px) {
       font-size: 28px;
-      margin-bottom: 53px;
+      margin-bottom: 37px;
     }
 
     @media screen and (max-width: 526px) {
@@ -50,7 +49,7 @@ export const Content = styled.div`
   }
 
   img {
-    width: 130px;
+    width: 200px;
     transition: transform 0.3s;
 
     :hover {
@@ -59,7 +58,7 @@ export const Content = styled.div`
     }
 
     @media screen and (max-width: 768px) {
-      width: 110px;
+      width: 155px;
     }
   }
 `;
@@ -68,7 +67,7 @@ export const Button = styled.button`
   font-size: 36px;
   font-weight: 600;
   padding: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 136px;
   color: var(--white);
   border-radius: 10px;
   background: var(--red);
@@ -81,6 +80,7 @@ export const Button = styled.button`
 
   @media screen and (max-width: 768px) {
     font-size: 26px;
+    margin-bottom: 83px;
   }
 
   @media screen and (max-width: 526px) {

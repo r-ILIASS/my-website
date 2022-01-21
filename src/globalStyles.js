@@ -40,7 +40,7 @@ export const GlobalStyle = createGlobalStyle`
 
 html{
     scroll-behavior:smooth;
-  
+    min-width: 362px;
 }
 
 body,

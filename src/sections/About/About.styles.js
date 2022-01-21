@@ -26,6 +26,12 @@ export const Content = styled.div`
     justify-content: space-around;
   }
 
+  .col2 {
+    @media screen and (min-width: 493px) {
+      min-width: 419px;
+    }
+  }
+
   h3 {
     font-size: 38px;
     font-weight: 600;
@@ -66,6 +72,7 @@ export const Content = styled.div`
 
   ul {
     padding-left: 30px;
+    margin-bottom: 24px;
     li {
       font-size: 26px;
       font-weight: 500;

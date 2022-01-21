@@ -11,7 +11,7 @@ const About = () => (
           <p>
             I am a Computer Enginnering graduate and a self-taught
             <br />
-            Web Developer who loves JavaScript’s ecosystem, I enjoy
+            Web Developer who enjoys JavaScript’s ecosystem, I like
             <br />
             spending my day coding and learning anything related to
             <br />
@@ -36,10 +36,11 @@ const About = () => (
             <li>Fluent in three foreign languages</li>
             <li>Patience when dealing with others</li>
             <li>Great at managing conflict</li>
-            <li>Clear communication</li>
             <li>Very healthy ego</li>
             <li>Team-Player</li>
           </ul>
+          <h3>Foreign Languages</h3>
+          <p>English - French - Arabic - Russian (Beginner)</p>
         </div>
       </Content>
     </Wrapper>
