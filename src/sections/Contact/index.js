@@ -15,10 +15,10 @@ const Contact = () => (
         <p>+212 6 89444004</p>
         <div className="social">
           <a href="https://github.com/" target="_blank">
-            <img src={telegramIcon} alt="telegram" />
+            <img src={linkedinIcon} alt="linkedin" />
           </a>
           <a href="https://github.com/" target="_blank">
-            <img src={linkedinIcon} alt="linkedin" />
+            <img src={telegramIcon} alt="telegram" />
           </a>
           <a href="https://github.com/" target="_blank">
             <img src={githubIcon} alt="github" />

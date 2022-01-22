@@ -17,7 +17,7 @@ export const ImageWrapper = styled.div`
 
 export const TextWrapper = styled.div`
   padding: 20px;
-  min-height: 403px;
+  min-height: 424px;
 
   h5 {
     font-size: 34px;

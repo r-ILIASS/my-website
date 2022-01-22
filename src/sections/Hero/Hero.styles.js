@@ -27,16 +27,16 @@ export const Content = styled.div`
   align-items: center;
   justify-content: center;
 
-  padding-top: 180px;
+  padding-top: 86px;
 
   @media screen and (max-width: 768px) {
     padding-top: 70px;
   }
 
   p {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 600;
-    margin-bottom: 65px;
+    margin-bottom: 41px;
 
     @media screen and (max-width: 768px) {
       font-size: 28px;
@@ -49,7 +49,7 @@ export const Content = styled.div`
   }
 
   img {
-    width: 200px;
+    width: 184px;
     transition: transform 0.3s;
 
     :hover {
@@ -64,10 +64,10 @@ export const Content = styled.div`
 `;
 
 export const Button = styled.button`
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 600;
   padding: 10px;
-  margin-bottom: 136px;
+  margin-bottom: 124px;
   color: var(--white);
   border-radius: 10px;
   background: var(--red);

@@ -47,7 +47,7 @@ export const Content = styled.div`
   }
 
   p {
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 500;
     margin-bottom: 12px;
 
@@ -74,7 +74,7 @@ export const Content = styled.div`
     padding-left: 30px;
     margin-bottom: 24px;
     li {
-      font-size: 26px;
+      font-size: 24px;
       font-weight: 500;
 
       @media screen and (max-width: 1370px) {

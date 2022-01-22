@@ -15,7 +15,7 @@ const projects = [
     title: "M-Table",
     description:
       "A React application where I exercised OOP JavaScript's best practices and bleeding edge ES6 features. This app covers 100% reusable functional components, custom hooks, composition over inheritance, error handling & logging, client-side pagination/sorting, and much more.",
-    liveLink: "https://youthful-bassi-64ca85.netlify.app/",
+    liveLink: "https://mtable.netlify.app/movies",
     githubLink: "https://github.com/r-ILIASS/m-table",
     image: Mtable,
   },
@@ -24,8 +24,8 @@ const projects = [
     title: "M-Table backend",
     description:
       "A complete NodeJs backend for M-Table featuring ExpressJs and MongoDB. This backend provides API endpoints for all CRUD operations. I demonstrate in this application the use of Custom middleware, Monkey-patching ExpressJs routes, Refactoring for a readable code, Password Encryption using Bcrypt, JsonWebToken, authentication, and authorization.",
-    liveLink: "http://github.com/r-iliass",
-    githubLink: "http://github.com/r-iliass",
+    liveLink: "https://mockmoviesbackend.herokuapp.com/api/movies",
+    githubLink: "https://github.com/r-ILIASS/moviesBackend",
     image: MtableBackend,
   },
   {
@@ -33,8 +33,8 @@ const projects = [
     title: "Engine Ui",
     description:
       "A minimalist React application displaying data fetched from the Google API. This application exhibits a clean and simple UI built with TailwindCss and features global (light/dark) themes, the use of React Context, and debounced values.",
-    liveLink: "http://github.com/r-iliass",
-    githubLink: "http://github.com/r-iliass",
+    liveLink: "https://engineui.netlify.app/search",
+    githubLink: "https://github.com/r-ILIASS/search-engine-ui",
     image: EngineUi,
   },
   {

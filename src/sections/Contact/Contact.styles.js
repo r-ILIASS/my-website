@@ -25,7 +25,7 @@ export const Content = styled.div`
 
   p {
     font-size: 26px;
-    font-weight: 600;
+    font-weight: 400;
     margin-bottom: 20px;
 
     @media screen and (max-width: 768px) {
@@ -42,7 +42,7 @@ export const Content = styled.div`
     }
 
     img {
-      width: 48px;
+      width: 30px;
 
       @media screen and (max-width: 768px) {
         width: 28px;
