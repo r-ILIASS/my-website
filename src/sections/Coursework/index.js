@@ -9,6 +9,7 @@ import Mtable from "../../assets/mtable.png";
 import MtableBackend from "../../assets/mtable_backend.png";
 import MoviesCover from "../../assets/thumb__movies-gallery.png";
 import EshopCover from "../../assets/thumb__eshop.png";
+import MyBlogCover from "../../assets/thumb__myblog.png";
 
 const projects = [
   {
@@ -55,6 +56,15 @@ const projects = [
     liveLink: "https://reactjs-e-shop.netlify.app/",
     githubLink: "https://github.com/r-ILIASS/e-shop",
     image: EshopCover,
+  },
+  {
+    id: 6,
+    title: "My Blog",
+    description:
+      "A NextJs blog application that manages its content using headless GraphCMS. Building this blog allowed me to learn a few things about GraphQl query language and how NextJs works with React.",
+    liveLink: "https://my-next-react-blog.vercel.app/",
+    githubLink: "https://github.com/r-ILIASS/MyBlog",
+    image: MyBlogCover,
   },
 ];
 
