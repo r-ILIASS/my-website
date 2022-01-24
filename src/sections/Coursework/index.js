@@ -7,7 +7,7 @@ import { Wrapper, Content, CardsContainer } from "./Coursework.styles";
 import EngineUi from "../../assets/engineui.png";
 import Mtable from "../../assets/mtable.png";
 import MtableBackend from "../../assets/mtable_backend.png";
-import MoviesCover from "../../assets/thumb__movies-gallery.jpeg";
+import MoviesCover from "../../assets/thumb__movies-gallery.png";
 
 const projects = [
   {
@@ -42,8 +42,8 @@ const projects = [
     title: "Movies Gallery",
     description:
       "A React application built on the famous TMDB API. In this application, I handled multiple API calls, persisted the state in the session storage to improve performance, used Context to avoid prop drilling and custom hooks to add abstraction to the main pages and simplify their implementation.",
-    liveLink: "http://github.com/r-iliass",
-    githubLink: "http://github.com/r-iliass",
+    liveLink: "https://reactmoviesgallery.netlify.app/",
+    githubLink: "https://github.com/r-ILIASS/movies-gallery",
     image: MoviesCover,
   },
 ];
