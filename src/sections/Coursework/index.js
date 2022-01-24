@@ -8,6 +8,7 @@ import EngineUi from "../../assets/engineui.png";
 import Mtable from "../../assets/mtable.png";
 import MtableBackend from "../../assets/mtable_backend.png";
 import MoviesCover from "../../assets/thumb__movies-gallery.png";
+import EshopCover from "../../assets/thumb__eshop.png";
 
 const projects = [
   {
@@ -45,6 +46,15 @@ const projects = [
     liveLink: "https://reactmoviesgallery.netlify.app/",
     githubLink: "https://github.com/r-ILIASS/movies-gallery",
     image: MoviesCover,
+  },
+  {
+    id: 5,
+    title: "eShop",
+    description:
+      "A clean and minimalist React application built on CommerceJs's headless API, Stripe, and MaterialUI. eShop fetches the needed data from CommerceJs and handles adding items to the cart then sends its data back to CommerceJs, checkout is managed by Stripe.",
+    liveLink: "https://reactjs-e-shop.netlify.app/",
+    githubLink: "https://github.com/r-ILIASS/e-shop",
+    image: EshopCover,
   },
 ];
 
