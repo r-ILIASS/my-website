@@ -14,10 +14,10 @@ const Hero = () => (
         <br />
         an internship or a junior position
       </p>
-      <a href="https://github.com/" target="_blank">
+      <a href="https://github.com/" target="_blank" rel="noreferrer">
         <Button>Checkout my resume</Button>
       </a>
-      <a href="https://github.com/" target="_blank">
+      <a href="https://github.com/" target="_blank" rel="noreferrer">
         <img src={pdf} alt="resume" />
       </a>
     </Content>
