@@ -14,13 +14,13 @@ const Contact = () => (
         <p>iliass.root@gmail.com</p>
         <p>+212 6 89444004</p>
         <div className="social">
-          <a href="https://github.com/" target="_blank">
+          <a href="https://github.com/" target="_blank" rel="noreferrer">
             <img src={linkedinIcon} alt="linkedin" />
           </a>
-          <a href="https://github.com/" target="_blank">
+          <a href="https://github.com/" target="_blank" rel="noreferrer">
             <img src={telegramIcon} alt="telegram" />
           </a>
-          <a href="https://github.com/" target="_blank">
+          <a href="https://github.com/" target="_blank" rel="noreferrer">
             <img src={githubIcon} alt="github" />
           </a>
         </div>
