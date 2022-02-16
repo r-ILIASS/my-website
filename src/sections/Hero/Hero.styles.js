@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  height: calc(100vh - 56px);
+  height: 680px;
   background: url(${({ background }) => background});
   background-size: 1920px, cover;
 
   @media screen and (max-width: 768px) {
-    height: 768px;
+    height: 520px;
     background-size: 1280px;
   }
 
@@ -15,7 +15,7 @@ export const Wrapper = styled.div`
   }
 
   @media screen and (max-width: 526px) {
-    height: 668px;
+    height: 499px;
   }
 `;
 
@@ -34,13 +34,13 @@ export const Content = styled.div`
   }
 
   p {
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 600;
-    margin-bottom: 41px;
+    margin-bottom: 118px;
 
     @media screen and (max-width: 768px) {
-      font-size: 28px;
-      margin-bottom: 37px;
+      font-size: 24px;
+      margin-bottom: 54px;
     }
 
     @media screen and (max-width: 526px) {

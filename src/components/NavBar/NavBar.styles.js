@@ -16,7 +16,7 @@ export const Content = styled.div`
   flex-wrap: wrap;
 
   p {
-    font-size: 28px;
+    font-size: 18px;
     font-weight: 300;
     color: #afafaf;
 
@@ -62,7 +62,7 @@ export const Menu = styled.div`
 `;
 
 export const MenuLink = styled.a`
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 400;
   margin-left: 42px;
   color: var(--white);

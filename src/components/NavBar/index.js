@@ -15,8 +15,8 @@ const NavBar = () => {
           <span />
         </Hamburger>
         <Menu isOpen={isOpen}>
-          <MenuLink href="#about" onClick={() => setIsOpen(false)}>
-            About Me
+          <MenuLink href="#skills" onClick={() => setIsOpen(false)}>
+            Skills
           </MenuLink>
           <MenuLink href="#projects" onClick={() => setIsOpen(false)}>
             Projects

@@ -1,7 +1,11 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  background: var(--lightGrey);
+  background: radial-gradient(
+    circle,
+    rgba(35, 34, 34, 1) 0%,
+    rgba(28, 28, 28, 1) 100%
+  );
 `;
 
 export const Content = styled.div`
@@ -14,39 +18,23 @@ export const Content = styled.div`
   color: var(--white);
 
   h3 {
-    font-size: 38px;
+    font-size: 21px;
     font-weight: 600;
     margin-bottom: 15px;
-
-    @media screen and (max-width: 768px) {
-      font-size: 28px;
-    }
   }
 
   p {
-    font-size: 26px;
+    font-size: 16px;
     font-weight: 400;
     margin-bottom: 20px;
-
-    @media screen and (max-width: 768px) {
-      font-size: 18px;
-    }
   }
 
   .social {
     display: flex;
-    gap: 40px;
-
-    @media screen and (max-width: 768px) {
-      gap: 20px;
-    }
+    gap: 20px;
 
     img {
-      width: 30px;
-
-      @media screen and (max-width: 768px) {
-        width: 28px;
-      }
+      width: 20px;
     }
   }
 `;

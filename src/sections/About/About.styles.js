@@ -12,78 +12,42 @@ export const Wrapper = styled.div`
 export const Content = styled.div`
   max-width: var(--maxWidth);
   margin: 0 auto;
-  padding: 20px 0;
-  display: flex;
-  justify-content: space-between;
-  color: var(--white);
+  padding: 40px 20px;
 
-  @media screen and (max-width: 916px) {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  @media screen and (max-width: 1370px) {
-    justify-content: space-around;
-  }
-
-  .col2 {
-    @media screen and (min-width: 493px) {
-      min-width: 419px;
-    }
-  }
-
-  h3 {
+  h1 {
+    text-align: center;
     font-size: 38px;
-    font-weight: 600;
-    margin-bottom: 18px;
-
-    @media screen and (max-width: 1370px) {
-      font-size: 28px;
-    }
-
-    @media screen and (max-width: 492px) {
-      font-size: 22px;
-    }
+    color: var(--white);
+    margin-bottom: 40px;
   }
 
-  p {
-    font-size: 24px;
-    font-weight: 500;
-    margin-bottom: 12px;
+  .contentWrapper {
+    width: 100%;
+    margin-bottom: 20px;
+    color: var(--white);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 100px));
+    grid-gap: 26px;
 
-    @media screen and (max-width: 1370px) {
-      font-size: 18px;
+    @media screen and (max-width: 1280px) {
+      grid-gap: 40px;
     }
 
-    @media screen and (max-width: 492px) {
-      font-size: 16px;
+    @media screen and (max-width: 768px) {
+      grid-gap: 55px;
+    }
+
+    @media screen and (max-width: 414px) {
+      grid-gap: 33px;
     }
 
     @media screen and (max-width: 375px) {
-      font-size: 14px;
+      grid-gap: 13px;
     }
 
-    :last-child {
-      @media screen and (max-width: 916px) {
-        margin-bottom: 40px;
-      }
-    }
-  }
-
-  ul {
-    padding-left: 30px;
-    margin-bottom: 24px;
-    li {
-      font-size: 24px;
-      font-weight: 500;
-
-      @media screen and (max-width: 1370px) {
-        font-size: 18px;
-      }
-
-      @media screen and (max-width: 492px) {
-        font-size: 16px;
-      }
+    img {
+      width: 100px;
+      margin: auto;
     }
   }
 `;

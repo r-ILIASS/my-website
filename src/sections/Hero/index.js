@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Wrapper, Content, Button } from "./Hero.styles";
+import { Wrapper, Content } from "./Hero.styles";
 
 import background from "../../assets/hero__background.jpg";
 import pdf from "../../assets/pdfLogo.svg";
@@ -14,13 +14,6 @@ const Hero = () => (
         <br />
         an internship or a junior position
       </p>
-      <a
-        href="https://drive.google.com/file/d/1kHqxWdu6ZuWd9ci-9jA63Y8uzH6sAd--/view?usp=sharing"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <Button>Checkout my resume</Button>
-      </a>
       <a
         href="https://drive.google.com/file/d/1kHqxWdu6ZuWd9ci-9jA63Y8uzH6sAd--/view?usp=sharing"
         target="_blank"

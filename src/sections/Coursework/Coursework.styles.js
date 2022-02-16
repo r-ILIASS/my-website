@@ -1,19 +1,21 @@
 import styled from "styled-components";
+import dot from "../../assets/dot-grid.png";
 
 export const Wrapper = styled.div`
-  background: var(--milkBlue);
+  background-color: var(--white);
+  background: url(${dot});
   padding: 0 20px;
 `;
 
 export const Content = styled.div`
   max-width: var(--maxWidth);
   margin: 0 auto;
-  padding: 40px 0;
+  padding: 70px 0;
 
   h3 {
     font-size: 38px;
     font-weight: 700;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
     text-align: center;
 
     @media screen and (max-width: 414px) {
