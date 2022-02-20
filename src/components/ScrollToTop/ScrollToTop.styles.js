@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Button = styled.button`
   background: none;
-  max-width: ${({ isVisible }) => (isVisible ? "60px" : "2px")};
+  width: ${({ isVisible }) => (isVisible ? "60px" : "2px")};
   position: fixed;
   bottom: 40px;
   right: ${({ isVisible }) => (isVisible ? "40px" : "-90px")};
