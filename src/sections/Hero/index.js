@@ -15,7 +15,7 @@ const Hero = () => (
         an internship or a junior position
       </p>
       <a
-        href="https://drive.google.com/file/d/16R40E9Tz64QbbJSdZf4nxOYDKyESMbRw/view?usp=sharing"
+        href="https://drive.google.com/file/d/1q_ap0LUEJQceS_l1avHN0FiEniISWpoa/view?usp=sharing"
         target="_blank"
         rel="noreferrer"
       >
